@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@400;900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  font-family: 'Inter', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+input, button, textarea, select {
+  outline: none;
+}
+a,span {
+    display: inline-block;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: #070211;
+    text-transform: capitalize;
+    line-height: normal;
+}
+h1 span {
+    color: #FF0000;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 62px;
+    color: #FFFFFF;
+    text-transform: inherit;
+    line-height: normal;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #070211;
+    text-transform: inherit;
+    line-height: normal;
+}
+h4 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #070211;
+    text-transform: inherit;
+    line-height: normal;
+}
+h4 span {
+    color: #FF0000;
+}
+h5 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+    text-transform: capitalize;
+}
+h5 span {
+    color: #070211;
+}
+.join-btn a {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: normal;
+    background-color: #FF0000;
+    padding: 14px 30px;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* start new year party banner area css  */
+
+.new-year-party-banner-area {
+    padding-top: 50px;
+}
+.new-year-party-banner-content {
+    background: url('../images/bg-overlay.png'),url('../images/banner-image.png');
+    background-repeat: no-repeat;
+    background-size: cover, 100% 100%;
+    padding: 175px 0;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.new-year-party-banner-content h1,.new-year-party-banner-content h4 {
+    color: #FFFFFF;
+    text-align: center;
+}
+.new-year-party-banner-content h4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+/* end new year party banner area css  */
+
+/* start new year area css  */
+.happy-new-year-area {
+    background: #FFFFFF;
+    padding: 120px 0;
+}
+.happy-new-year-content {
+    text-align: center;
+}
+.happy-new-year-content h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    color: #FF0000;
+    text-transform: uppercase;
+}
+.happy-new-year-content h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.happy-new-year-content h5 {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.happy-new-year-content img {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* end new year area css  */
